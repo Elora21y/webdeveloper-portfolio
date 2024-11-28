@@ -138,8 +138,10 @@ nav a{
 .skill-title{
     color: #181818;
 }
-.skill-description{
+.skill-description ,.resume-item-description{
     color: #757575;
+    font-weight: 400;
+    font-size: 16px;
 }
 /* resume section styles */
 .resume-column-title{
@@ -150,10 +152,26 @@ nav a{
 }
 .resume-container{
     display: flex;
+    gap: 50px;
 }
 .resume-item-title{
     color:#474747 ;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
-.resume-item-institute, .resume-item-description{
+.resume-item-institute {
     color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+hr{
+    margin: 30px 0px;
+    color: #D1D1D1;
+}
+.download{
+   text-align: center;
+   margin-top: 50px;
 }
